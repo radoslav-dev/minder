@@ -32,7 +32,7 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - uses: ko-build/setup-ko@ace48d793556083a76f1e3e6068850c1f4a369aa # v0.6
-      - uses: azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78 # v3
+      - uses: azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78
         with:
           version: v3.12.2
       - run: |
